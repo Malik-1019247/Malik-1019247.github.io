@@ -6,6 +6,7 @@
 
 html,
 body {
+    font-family: "JetBrains Mono", monospace;;
     width: 100%;
     min-height: 100%;
 }
