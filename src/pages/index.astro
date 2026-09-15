@@ -1,17 +1,65 @@
 ---
-
+import "../styles/index.css";
+import "../styles/navbar.css";
 ---
 
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
+		<link rel="icon" type="image/png" href="/favicon.png" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>Malik Guinko</title>
 	</head>
 	<body>
-		<h1>Astro</h1>
+	  <div class="hero-background">
+      <nav>
+        <div class="navbar-left">
+          <h1 class="myname">
+            <span class="symbol"><</span> Malik Guinko <span class="symbol">/></span>
+          </h1>
+        </div>
+        <div class="navbar-right">
+          <button>
+            Home
+          </button>
+          <button>
+            Over mij
+          </button>
+          <button>
+            Skills
+          </button>
+          <button>
+            Projecten
+          </button>
+          <button>
+            Contact
+          </button>
+        </div>
+      </nav>
+      <main>
+        <div class="hero">
+          <div class="hero-text">
+            <h1>
+              <span class="symbol"><</span> Software Developer in opleiding <span class="symbol">/></span>
+            </h1>
+            <h2>
+              Bouwt ideeën tot werkende <span class="symbol">oplossingen.</span>
+            </h2>
+            <p>
+              Gestructureerd, kritisch en gedreven om betere software te bouwen. Altijd op zoek naar nieuwe uitdagingen
+            </p>
+          </div>
+          <div class="hero-buttons">
+            <button class="bekijk-btn">
+              Bekijk mijn werk
+            </button>
+            <button class="contact-btn">
+              Neem contact op
+            </button>
+          </div>
+        </div>
+      </main>
+    </div>
 	</body>
 </html>
