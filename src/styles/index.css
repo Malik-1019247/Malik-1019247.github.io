@@ -77,12 +77,14 @@ body {
   font-weight: bold;
 }
 
-.about-wrapper {
+.about-wrapper,
+.interesses-wrapper {
   display: flex;
   width: 100%;
   min-height: 400px;
   flex-direction: row;
   gap: 20px;
+  align-items: center;
 
   background-color: white;
 }
@@ -136,7 +138,7 @@ body {
   min-height: 400px;
   flex-direction: row;
   gap: 20px;
-  align-items: top;
+  align-items: center;
 
 }
 
@@ -150,8 +152,7 @@ body {
 .skills-icons {
   display: flex;
   flex-direction: row;
-  gap: 30px;
-  margin-top: 40px;
+  gap: 20px;
   flex: 0.5;
 }
 
@@ -170,8 +171,21 @@ body {
 .fa-react,
 .fa-html5,
 .fa-css3,
-.fa-github
-{
+.fa-github {
   font-size: 50px;
   color: var(--primary-color);
+}
+
+.fa-file-code,
+.fa-shield,
+.fa-brain {
+  font-size: 30px;
+  color: var(--primary-color);
+}
+
+.interesses-title {
+  display: flex;
+  flex-direction: column;
+  flex: 0.25;
+  margin-left: 40px;
 }
