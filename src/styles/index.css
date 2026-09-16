@@ -1,11 +1,78 @@
 :root {
-    --primary-color: #219c77;
-    --primary-color-transparant: rgba(33, 156, 119, 0.5);
-    --secondary-color: black;
-    --background-color: #EAF4F4;
+  --primary-color: #219c77;
+  --primary-color-transparant: rgba(33, 156, 119, 0.5);
+  --secondary-color: black;
+  --background-color: #EAF4F4;
+  --grey-text: #1F2933;
 }
 
 body {
   font-family: monospace;
   background-color: var(--background-color);
 }
+
+.hero-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  min-height: 600px;
+
+  background-image: url("/hero-background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cta-button {
+  font-weight: semi bold;
+  font-size: 15px;
+
+  border-radius: 10px;
+  padding: 12px;
+
+  background-color: var(--primary-color);
+  color: white;
+  text-decoration: none;
+}
+
+.aboutme-btn {
+  font-size: 15px;
+  border-radius: 10px;
+  padding: 12px;
+
+  background-color: white;
+  color: black;
+  text-decoration: none;
+
+  border: solid;
+  border-width: 1px;
+  border-color: grey;
+}
+
+.text-wrapper {
+  margin-left: 30px;
+  width: 70%;
+}
+.title-text {
+  font-size: 36px;
+}
+
+.label-text {
+  color: grey;
+  font-weight: bold;
+}
+
+.description-text {
+  color: var(--grey-text);
+
+  font-weight: semibold;
+  font-size: 14px;
+}
+
+.button-wrapper {
+  display: flex;
+  gap: 20px;
+  font-weight: bold;
+}
+
+
