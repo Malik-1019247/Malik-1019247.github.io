@@ -19,17 +19,31 @@ h1, h2, h3, p {
   color: white;
 }
 
+p {
+  margin-top: 10px;
+}
+
+.small-title {
+  font-size: 20px;
+  margin-top: 7px;
+}
+
+.big-title {
+  font-size: 36px;
+}
+
 .hero {
   display: flex;
   flex-direction: column;
-  margin-left: 40px;
-  height: 400px;
+  margin-left: 80px;
+  margin-top: 40px;
+  height: 500px;
   width: 100%;
   justify-content: center;
 }
 
 .hero-background {
-  min-height: 100vh;
+  height: 610px;
 
   background-image: url("/herobackground.png");
   background-size: cover;
@@ -40,6 +54,7 @@ h1, h2, h3, p {
 .hero-text {
   line-height: 1.5;
   font-weight: 600;
+  width: 400px;
 }
 
 .hero-buttons {
@@ -48,7 +63,10 @@ h1, h2, h3, p {
 }
 
 .bekijk-btn {
-
+  background-color: transparent;
+  border: solid;
+  border-width: 2px;
+  color: green;
 }
 
 .contact-btn {
@@ -81,5 +99,25 @@ button:hover {
   color: green;
   background-color: white;
 
+}
 
+.description-wrapper {
+  display: flex;
+  height: 400px;
+  background-color: black;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.description-wrapper-white {
+  display: flex;
+  height: 400px;
+  background-color: white;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.description-text {
+  margin-left: 80px;
+  width: 80%;
 }
