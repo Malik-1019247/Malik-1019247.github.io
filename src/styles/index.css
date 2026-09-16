@@ -1,84 +1,11 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+:root {
+    --primary-color: #219c77;
+    --primary-color-transparant: rgba(33, 156, 119, 0.5);
+    --secondary-color: black;
+    --background-color: #EAF4F4;
 }
 
-html,
 body {
-    width: 100%;
-    min-height: 100%;
-}
-
-.symbol {
-  color: green;
-}
-
-h1, h2, h3, p {
-  color: white;
-}
-
-.hero {
-  display: flex;
-  flex-direction: column;
-  margin-left: 40px;
-  height: 400px;
-  width: 100%;
-  justify-content: center;
-}
-
-.hero-background {
-  min-height: 100vh;
-
-  background-image: url("/herobackground.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.hero-text {
-  line-height: 1.5;
-  font-weight: 600;
-}
-
-.hero-buttons {
-  display: flex;
-  gap: 20px;
-}
-
-.bekijk-btn {
-
-}
-
-.contact-btn {
-  color: green;
-  background-color: white;
-
-}
-
-.contact-btn:hover {
-  color: white;
-  background-color: green;
-
-}
-
-button {
-  color: white;
-  background-color: green;
-  border-radius: 12px;
-  border: 1px solid transparent;
-
-  font-size: 16px;
-  padding: 12px 20px;
-  margin-top: 28px;
-  font-weight: 600;
-  cursor: pointer;
-
-}
-
-button:hover {
-  color: green;
-  background-color: white;
-
-
+  font-family: monospace;
+  background-color: var(--background-color);
 }
