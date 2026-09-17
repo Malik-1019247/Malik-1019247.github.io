@@ -132,7 +132,8 @@ body {
   font-size: 13px;
 }
 
-.skills-wrapper {
+.skills-wrapper,
+.projecten-wrapper {
   display: flex;
   width: 100%;
   min-height: 400px;
@@ -178,7 +179,10 @@ body {
 
 .fa-file-code,
 .fa-shield,
-.fa-brain {
+.fa-brain,
+.fa-file,
+.fa-gamepad,
+.fa-globe {
   font-size: 30px;
   color: var(--primary-color);
 }
