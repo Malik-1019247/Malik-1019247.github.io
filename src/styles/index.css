@@ -78,7 +78,8 @@ body {
 }
 
 .about-wrapper,
-.interesses-wrapper {
+.interesses-wrapper,
+.kennismaken-wrapper {
   display: flex;
   width: 100%;
   min-height: 400px;
@@ -187,9 +188,42 @@ body {
   color: var(--primary-color);
 }
 
+.fa-envelope,
+.fa-linkedin,
+.fa-square-github {
+  font-size: 25px;
+  color: var(--grey-text);
+}
+
 .interesses-title {
   display: flex;
   flex-direction: column;
   flex: 0.25;
   margin-left: 40px;
+}
+
+.kennismaken-wrapper {
+  display: flex;
+  flex: 0.25;
+}
+
+.contact-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex: 0.5;
+  gap: 20px;
+}
+
+.contact-button {
+  font-size: 15px;
+  border-radius: 10px;
+  padding: 16px;
+
+  background-color: white;
+  color: black;
+  text-decoration: none;
+
+  border: solid;
+  border-width: 2px;
+  border-color: var(--primary-color-transparant);
 }
